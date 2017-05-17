@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="uft-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<title>Library Management System</title>
+</head>
+<body background="back.jpg">
+<h1 style="text-align:center; color:white;">Eugene McDermott Library</h1>
+	<div class="col-lg-6" style="position:fixed; top:25%; left:30%; width:35%;">
+		<div class="well bs-component">
+			<form class="form-horizontal" action="login.php" method="POST">
+  			<fieldset>
+    			<legend style="text-align:center;">Please Login</legend>
+               	<div class="form-group" style="padding:0px; text-align:center;">
+                  	<label for="select" class="control-label">select</label>
+                  	<select class="form-control" id="select" name="type">
+                    	<option>User</option>
+                     	<option>Admin</option>
+                  	</select>
+               	</div>
+    			<div class="form-group">
+	      			<label for="inputEmail" class="col-lg-2 control-label">ID</label>
+	      			<div class="col-lg-10">
+	        			<input type="text" class="form-control" id="inputEmail" name="account" placeholder=" user id">
+	      			</div>
+    			</div>
+    			<div class="form-group">
+      				<label for="inputPassword" class="col-lg-2 control-label">Password</label>
+      				<div class="col-lg-10">
+        				<input type="password" class="form-control" id="inputPassword" name="password" placeholder="password">
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<div class="col-lg-10 col-lg-offset-2">
+        				
+        				<button type="submit" class="btn btn-info" style="width:75%">Log in</button>
+      				</div>
+					
+    			</div>
+				<div class="form-group">
+      				<div >
+        				
+        				<a href="register.php">Register Here</a>
+      				</div>
+					
+    			</div>
+  			</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
